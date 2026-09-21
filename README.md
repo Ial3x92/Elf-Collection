@@ -1,1 +1,1 @@
-Credits: John Törnblom - aydencharles - Claude - kvnhrt - Modmycon - LightningMods - EchoStretch  - earthonion - itsPLK - drakmor - xbcyl813 - ArkSama - matem6 - sitro - raw13g - oresterosso 
+Credits: John Törnblom - aydencharles - Claude - kvnhrt - Modmycon - LightningMods - EchoStretch  - earthonion - itsPLK - drakmor - xbcyl813 - ArkSama - matem6 - sitro - raw13g - oresterosso - bucanero
