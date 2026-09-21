@@ -1,0 +1,6 @@
+Mettere il gioco nella cartella MKpfs
+
+python -m mkpfs pack file './Days.Gone.exfat' './Days.Gone.ffpfsc'
+
+
+python -m mkpfs unpack  --deep './Dead.space.ffpfsc' './Dead.space-extracted/'

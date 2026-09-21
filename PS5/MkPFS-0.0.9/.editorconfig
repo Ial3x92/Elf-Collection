@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+max_line_length = 119
+ij_visual_guides = 79, 119
+ij_formatter_tags_enabled = false
+ij_wrap_on_typing = false
+ij_continuation_indent_size = 8
+ij_smart_tabs = false
+
+[*.{yaml,yml}]
+tab_width = 2

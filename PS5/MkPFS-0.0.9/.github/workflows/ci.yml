@@ -1,0 +1,58 @@
+name: CI
+permissions:
+  contents: read
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+  release:
+      types: [published]
+jobs:
+  build:
+    name: 📦 Builds the package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Run tests
+        run: SKIP_VENV=1 ./run-tests.sh
+      - name: Format
+        run: uvx ruff format . --check --diff
+      - name: Lint
+        run: uvx ruff check --output-format=github .
+      - name: Build package
+        run: uv build
+      - name: Check package metadata
+        run: uv run twine check dist/*
+      - name: Smoke install wheel
+        run: python -m venv /tmp/mkpfs-release-check && /tmp/mkpfs-release-check/bin/python -m pip install dist/*.whl && /tmp/mkpfs-release-check/bin/python -c "import mkpfs; print('mkpfs imported successfully')"
+      - name: Store the distribution packages
+        uses: actions/upload-artifact@v5
+        with:
+          name: python-package-distributions
+          path: dist/
+  publish-to-pypi:
+    name: 🐍 Publish Python distribution to PyPI
+    if: github.event_name == 'release' && github.event.release.prerelease == false
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/mkpfs
+    permissions:
+      id-token: write  # IMPORTANT: mandatory for trusted publishing
+    steps:
+      - name: Download all the dists
+        uses: actions/download-artifact@v6
+        with:
+          name: python-package-distributions
+          path: dist/
+      - name: Publish distribution 📦 to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
