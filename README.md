@@ -45,15 +45,15 @@ A special thank you to all the developers, researchers, and contributors of the 
 *   **[itsPLK](https://github.com/itsPLK)** - Developer of the PS5 PKG Manager and related utilities.
 *   **[drakmor](https://github.com/drakmor)** - Crucial researcher and contributor for PS5 kernel exploits.
 *   **[xbcyl813](https://github.com/xbcyl813)** - Technical contributor and enthusiast of the modding scene.
-*   **[ArkSama](https://github.com)** - Active developer in the Webkit exploit panorama.
-*   **[matem6](https://github.com)** - Developer of network utilities and exploit configurations.
-*   **[sitro](https://github.com)** - Known for contributions to DNS servers and exploit redirection.
-*   **[raw13g](https://github.com)** - Contributor of automation scripts for payload loading.
-*   **[oresterosso](https://github.com)** - Active developer and beta tester in the Italian and international community.
-*   **[bucanero](https://github.com Move)** - Creator of Apollo Save Tool and historical preservation tools.
-*   **[deckerr97](https://github.com)** - Researcher and developer of web interfaces for exploits.
-*   **[Al Azif](https://github.com)** - Developer of the famous DNS host and historical archive exploits for PS4.
-*   **[PSBrew](https://github.com)** - Group and repository dedicated to the preservation and documentation of exploits.
-*   **[soniciso](https://github.com)** - Developer and tester of backup managers and ISO tools.
+*   **[ArkSama](https://github.com/ArkSama)** - Active developer in the Webkit exploit panorama.
+*   **[matem6](https://github.com/matem6)** - Developer of network utilities and exploit configurations.
+*   **[sitro](https://github.com/SiSTR0)** - Known for contributions to DNS servers and exploit redirection.
+*   **[raw13g](https://github.com/raw13g)** - Contributor of automation scripts for payload loading.
+*   **[oresterosso](https://github.com/oresterosso75)** - Active developer and beta tester in the Italian and international community.
+*   **[bucanero](https://github.com/bucanero)** - Creator of Apollo Save Tool and historical preservation tools.
+*   **[kerrdec97](https://github.com/kerrdec97)** - Researcher and developer of web interfaces for exploits.
+*   **[Al Azif](https://github.com/al-azif)** - Developer of the famous DNS host and historical archive exploits for PS4.
+*   **[PSBrew](https://github.com/PSBrew)** - Group and repository dedicated to the preservation and documentation of exploits.
+*   **[soniciso1](https://github.com/soniciso1)** - Developer and tester of backup managers and ISO tools.
 
 ---
