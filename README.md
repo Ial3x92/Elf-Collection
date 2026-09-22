@@ -35,11 +35,10 @@ The repository is divided into macro-categories to make navigation between the t
 
 A special thank you to all the developers, researchers, and contributors of the PS4 and PS5 scene for their amazing work and for releasing open-source tools:
 
-*   **[John Törnblom](https://github.com)** - Main developer of the PS5 Payload SDK and numerous essential modules.
-*   **[aydencharles](https://github.com)** - Creator of OnionHEN and active contributor for PS5 tweaks.
-*   **Claude** - AI Assistant for documentation support and code formatting.
-*   **[kvnhrt](https://github.com)** - Contributor of scripts and tools for the community.
-*   **[Modmycon](https://github.com)** - Resource and host for exploits and guides dedicated to home consoles.
+*   **[John Törnblom](https://github.com/john-tornblom)** - Main developer of the PS5 Payload SDK and numerous essential modules.
+*   **[aydencharles](https://github.com/aydencharles)** - Creator of OnionHEN and active contributor for PS5 tweaks.
+*   **[kvnhrt](https://github.com/kvnhrt)** - Contributor of scripts and tools for the community.
+*   **[Modmycon](https://github.com/Modmycon)** - Resource and host for exploits and guides dedicated to home consoles.
 *   **[LightningMods](https://github.com)** - Lead developer of etaHEN, ItemzFlow, and the PS4 Homebrew Store.
 *   **[EchoStretch](https://github.com)** - Creator of PS5 App Dumper and developer of Kstuff/HEN ports.
 *   **[earthonion](https://github.com)** - Developer of garlic-savemgr and save managers.
@@ -58,10 +57,3 @@ A special thank you to all the developers, researchers, and contributors of the 
 *   **[soniciso](https://github.com)** - Developer and tester of backup managers and ISO tools.
 
 ---
-
-## 🤝 Contributing
-
-If you want to add guides, update tools, or report broken links:
-1. **Fork** the project.
-2. Create a branch for your changes (`git checkout -b feature/NewResource`).
-3. Open a **Pull Request** describing your changes.
