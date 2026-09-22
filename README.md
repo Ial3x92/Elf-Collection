@@ -39,12 +39,12 @@ A special thank you to all the developers, researchers, and contributors of the 
 *   **[aydencharles](https://github.com/aydencharles)** - Creator of OnionHEN and active contributor for PS5 tweaks.
 *   **[kvnhrt](https://github.com/kvnhrt)** - Contributor of scripts and tools for the community.
 *   **[Modmycon](https://github.com/Modmycon)** - Resource and host for exploits and guides dedicated to home consoles.
-*   **[LightningMods](https://github.com)** - Lead developer of etaHEN, ItemzFlow, and the PS4 Homebrew Store.
-*   **[EchoStretch](https://github.com)** - Creator of PS5 App Dumper and developer of Kstuff/HEN ports.
-*   **[earthonion](https://github.com)** - Developer of garlic-savemgr and save managers.
-*   **[itsPLK](https://github.com)** - Developer of the PS5 PKG Manager and related utilities.
-*   **[drakmor](https://github.com)** - Crucial researcher and contributor for PS5 kernel exploits.
-*   **[xbcyl813](https://github.com)** - Technical contributor and enthusiast of the modding scene.
+*   **[LightningMods](https://github.com/lightningmods)** - Lead developer of etaHEN, ItemzFlow, and the PS4 Homebrew Store.
+*   **[EchoStretch](https://github.com/EchoStretch)** - Creator of PS5 App Dumper and developer of Kstuff/HEN ports.
+*   **[earthonion](https://github.com/earthonion)** - Developer of garlic-savemgr and save managers.
+*   **[itsPLK](https://github.com/itsPLK)** - Developer of the PS5 PKG Manager and related utilities.
+*   **[drakmor](https://github.com/drakmor)** - Crucial researcher and contributor for PS5 kernel exploits.
+*   **[xbcyl813](https://github.com/xbcyl813)** - Technical contributor and enthusiast of the modding scene.
 *   **[ArkSama](https://github.com)** - Active developer in the Webkit exploit panorama.
 *   **[matem6](https://github.com)** - Developer of network utilities and exploit configurations.
 *   **[sitro](https://github.com)** - Known for contributions to DNS servers and exploit redirection.
