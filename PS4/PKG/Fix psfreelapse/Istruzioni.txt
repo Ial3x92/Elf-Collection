@@ -1,0 +1,2 @@
+FTP trasferire - aio_fix_505.prx - in /data/GoldHEN/plugins/
+FTP trasferire - plugins.ini - /data/GoldHEN/
