@@ -55,5 +55,6 @@ A special thank you to all the developers, researchers, and contributors of the 
 *   **[Al Azif](https://github.com/al-azif)** - Developer of the famous DNS host and historical archive exploits for PS4.
 *   **[PSBrew](https://github.com/PSBrew)** - Group and repository dedicated to the preservation and documentation of exploits.
 *   **[soniciso1](https://github.com/soniciso1)** - Developer and tester of backup managers and ISO tools.
+*   **[SHARKSIT](https://github.com/SHARKSIT)** - Creator A53.Kstuff.Backpork.elf
 
 ---
