@@ -1,87 +1,67 @@
 # PlayStation-Scene-Archive-PS4-PS5-Collection
 
-![PlayStation](https://shields.io)
-![Status](https://shields.io)
-
-Benvenuto in **PlayStation-Scene-Archive-PS4-PS5-Collection**, una raccolta organizzata di risorse, strumenti, payload e documentazione relativi alla scena modding e homebrew per **PlayStation 4** e **PlayStation 5**.
+Welcome to **PlayStation-Scene-Archive-PS4-PS5-Collection**, an organized collection of resources, tools, payloads, and documentation related to the modding and homebrew scene for **PlayStation 4** and **PlayStation 5**.
 
 ---
 
-## 📂 Struttura dell'Archivio
+## 📂 Archive Structure
 
-Il repository è suddiviso in macro-categorie per facilitare la navigazione tra le due console:
+The repository is divided into macro-categories to make navigation between the two consoles easier:
 
 ```text
 ├── 🎮 PS4/
-│   ├── Exploits/        # Webkit e Kernel exploits per vari firmware
-│   ├── Homebrew/        # Applicazioni in formato .pkg
-│   ├── Payloads/        # GoldHEN, Mira, FTP, Linux Loader, ecc.
-│   └── Tools/           # PC tools (Modding, PKG Kitchen, FTP clients)
+│   ├── 13.00/      # 12.02 - 13.00 - PSVUE Exploits
+│   ├── 13.52/      # ESP32S2 Web Server files
+│   ├── GoldHEN/    # GoldHEN Archive
+│   └── PKG/        # Apollo Save Tool & GoldHEN Cheat Manager PKGs
 │
 ├── 🚀 PS5/
-│   ├── Exploits/        # Aggiornamenti sulla scena BD-JB e Webkit (es. etaHEN)
-│   ├── Homebrew/        # Primi porting e app compatibili
-│   ├── Payloads/        # Payload ELF/BIN per i firmware supportati
-│   └── Tools/           # Strumenti di sviluppo e interazione PC-PS5
-│
-└── 📝 Documentation/     # Guide utili, tabelle dei firmware e FAQ
+│   ├── ELF/        # PS5 ELF Payload Collection
+│   ├── FPKG/       # ELF files for FPKG conversion
+│   ├── APP/        # Windows Applications & Tools
 ```
 
 ---
 
-## 🛠️ Contenuti Principali
+## ⚠️ Important Notes & Disclaimer
 
-### 🔹 Sezione PS4
-*   **GoldHEN:** Raccolta delle ultime versioni del payload definitivo per PS4.
-*   **Host statici:** File necessari per ospitare autonomamente l'exploit in locale (ESP8266/Android/PC).
-*   **Payload essenziali:** Strumenti per il backup dei salvataggi, attivazione del menu di debug e dump dei giochi.
-
-### 🔹 Sezione PS5
-*   **etaHEN & Libhijacker:** Payload e tweak per abilitare le funzioni homebrew sui firmware vulnerabili.
-*   **Webkit/Kernel Exploit:** File pronti per l'esecuzione tramite i DNS dedicati o host locali.
-*   **Esempi SDK:** Risorse utili per chi vuole iniziare a compilare i propri progetti.
+*   **Educational Purpose:** This archive is created exclusively for educational, research, and historical software preservation purposes.
+*   **No Piracy:** This repository **does not** and **will not** contain any copyrighted files, commercial game copies, or illegal material.
+*   **Responsibility:** Using the tools provided here is at your own risk. We assume no responsibility for any bricks or hardware/software damage to your consoles.
 
 ---
 
-## ⚠️ Note Importanti e Disclaimer
+## 👥 Credits & Acknowledgments
 
-*   **Scopo Informativo:** Questo archivio è creato esclusivamente a scopo didattico, di ricerca e per la preservazione del software storico.
-*   **No Pirateria:** Questo repository **non contiene** e **non conterrà** file protetti da copyright, copie di giochi commerciali o materiale illegale.
-*   **Responsabilità:** L'utilizzo degli strumenti qui presenti è a tuo rischio e pericolo. Non ci assumiamo alcuna responsabilità per eventuali brick o danni hardware/software alle console.
+A special thank you to all the developers, researchers, and contributors of the PS4 and PS5 scene for their amazing work and for releasing open-source tools:
 
----
-
-## 👥 Credits & Riconoscimenti
-
-Un ringraziamento speciale a tutti gli sviluppatori, ricercatori e contributori della scena PS4 e PS5 per il loro straordinario lavoro e per il rilascio di strumenti open-source:
-
-*   **[John Törnblom](https://github.com)** - Sviluppatore principale del PS5 Payload SDK e di numerosi moduli essenziali.
-*   **[aydencharles](https://github.com)** - Creatore di OnionHEN e contributore attivo per i tweak su PS5.
-*   **Claude** - Assistente IA per il supporto alla documentazione e alla formattazione del codice.
-*   **[kvnhrt](https://github.com)** - Contributore di script e strumenti per la community.
-*   **[Modmycon](https://github.com)** - Risorsa e host per exploit e guide dedicate alle console casalinghe.
-*   **[LightningMods](https://github.com)** - Sviluppatore capo di etaHEN, ItemzFlow e del PS4 Homebrew Store.
-*   **[EchoStretch](https://github.com)** - Creatore di PS5 App Dumper e sviluppatore dei porting di Kstuff/HEN.
-*   **[earthonion](https://github.com)** - Sviluppatore di garlic-savemgr e gestori di salvataggi.
-*   **[itsPLK](https://github.com)** - Sviluppatore del PS5 PKG Manager e utility correlate.
-*   **[drakmor](https://github.com)** - Ricercatore e contributore fondamentale per i kernel exploit PS5.
-*   **[xbcyl813](https://github.com)** - Contributore tecnico e appassionato della scena modding.
-*   **[ArkSama](https://github.com)** - Sviluppatore attivo nel panorama degli exploit Webkit.
-*   **[matem6](https://github.com)** - Sviluppatore di utility di rete e configurazioni per exploit.
-*   **[sitro](https://github.com)** - Noto per i contributi ai server DNS e al reindirizzamento degli exploit.
-*   **[raw13g](https://github.com)** - Contributore di script di automazione per il caricamento dei payload.
-*   **[oresterosso](https://github.com)** - Sviluppatore e beta tester attivo nella community italiana e internazionale.
-*   **[bucanero](https://github.com)** - Creatore di Apollo Save Tool e di storici strumenti di preservazione.
-*   **[deckerr97](https://github.com)** - Ricercatore e sviluppatore di interfacce web per exploit.
-*   **[Al Azif](https://github.com)** - Sviluppatore del celebre host DNS e degli exploit d'archivio storici per PS4.
-*   **[PSBrew](https://github.com)** - Gruppo e repository dedicato alla preservazione e documentazione degli exploit.
-*   **[soniciso](https://github.com)** - Sviluppatore e tester di backup manager e strumenti ISO.
+*   **[John Törnblom](https://github.com)** - Main developer of the PS5 Payload SDK and numerous essential modules.
+*   **[aydencharles](https://github.com)** - Creator of OnionHEN and active contributor for PS5 tweaks.
+*   **Claude** - AI Assistant for documentation support and code formatting.
+*   **[kvnhrt](https://github.com)** - Contributor of scripts and tools for the community.
+*   **[Modmycon](https://github.com)** - Resource and host for exploits and guides dedicated to home consoles.
+*   **[LightningMods](https://github.com)** - Lead developer of etaHEN, ItemzFlow, and the PS4 Homebrew Store.
+*   **[EchoStretch](https://github.com)** - Creator of PS5 App Dumper and developer of Kstuff/HEN ports.
+*   **[earthonion](https://github.com)** - Developer of garlic-savemgr and save managers.
+*   **[itsPLK](https://github.com)** - Developer of the PS5 PKG Manager and related utilities.
+*   **[drakmor](https://github.com)** - Crucial researcher and contributor for PS5 kernel exploits.
+*   **[xbcyl813](https://github.com)** - Technical contributor and enthusiast of the modding scene.
+*   **[ArkSama](https://github.com)** - Active developer in the Webkit exploit panorama.
+*   **[matem6](https://github.com)** - Developer of network utilities and exploit configurations.
+*   **[sitro](https://github.com)** - Known for contributions to DNS servers and exploit redirection.
+*   **[raw13g](https://github.com)** - Contributor of automation scripts for payload loading.
+*   **[oresterosso](https://github.com)** - Active developer and beta tester in the Italian and international community.
+*   **[bucanero](https://github.com Move)** - Creator of Apollo Save Tool and historical preservation tools.
+*   **[deckerr97](https://github.com)** - Researcher and developer of web interfaces for exploits.
+*   **[Al Azif](https://github.com)** - Developer of the famous DNS host and historical archive exploits for PS4.
+*   **[PSBrew](https://github.com)** - Group and repository dedicated to the preservation and documentation of exploits.
+*   **[soniciso](https://github.com)** - Developer and tester of backup managers and ISO tools.
 
 ---
 
-## 🤝 Contribuire
+## 🤝 Contributing
 
-Se vuoi aggiungere guide, aggiornare strumenti o segnalare link non funzionanti:
-1. Fai un **Fork** del progetto.
-2. Crea un branch per le tue modifiche (`git checkout -b feature/NuovaRisorsa`).
-3. Apri una **Pull Request** descrivendo i cambiamenti.
+If you want to add guides, update tools, or report broken links:
+1. **Fork** the project.
+2. Create a branch for your changes (`git checkout -b feature/NewResource`).
+3. Open a **Pull Request** describing your changes.
